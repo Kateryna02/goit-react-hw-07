@@ -3,7 +3,7 @@
 
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { deleteContact } from '../../redux/contactsOps'; у
+import { deleteContact } from '../../redux/contactsOps'; 
 import s from "./contactsItem.module.css";
 
 const ContactItem = ({ contact }) => {
