@@ -3,7 +3,7 @@
 
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { deleteContact } from '../../redux/contactsSlice';
+import { deleteContact } from '../../redux/contactsOps'; у
 import s from "./contactsItem.module.css";
 
 const ContactItem = ({ contact }) => {
@@ -11,7 +11,7 @@ const ContactItem = ({ contact }) => {
     const { id, name, number } = contact;
 
     const handleDelete = () => {
-        dispatch(deleteContact(id));
+        dispatch(deleteContact(id)); 
     };
 
     return (
@@ -23,6 +23,7 @@ const ContactItem = ({ contact }) => {
 };
 
 export default ContactItem;
+
 
 
 
