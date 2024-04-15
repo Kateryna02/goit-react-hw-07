@@ -1,0 +1,15 @@
+.contactItem{
+display: flex;
+    justify-content: space-between;
+}
+.contactP{
+font-size: 15px;
+    color: #100e0eb8;
+}
+.buttunItem{
+    padding: 5px 10px;
+        border: none;
+        background: #6ca2e0;
+        border-radius: 20px;
+        margin: 5px 25px;
+}

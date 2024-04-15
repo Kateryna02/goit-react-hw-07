@@ -1,0 +1,8 @@
+.contactList{
+list-style: none;
+border: 1px solid #0000004a;
+    display: flex;
+    flex-direction: column;
+   
+    width: 350px;
+}

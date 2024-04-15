@@ -1,0 +1,9 @@
+.buttonSubmit {
+    border: 3px solid #2c1f1f5c;
+    border-radius: 8px;
+    padding: 12px;
+}
+.app{
+        width: fit-content;
+            margin: 20px auto;
+        }
