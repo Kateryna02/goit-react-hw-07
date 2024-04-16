@@ -2,7 +2,8 @@
 
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { handleChangeFilter, selectNameFilter } from '../../redux/filtersSlice'; 
+import { handleChangeFilter } from '../../redux/filtersSlice'; 
+import { selectNameFilter } from '../../redux/selectors'
 import s from './Filter.module.css';
 
 const Filter = () => {
